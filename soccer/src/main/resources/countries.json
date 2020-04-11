@@ -1,0 +1,149 @@
+{
+  "countries": [
+    {
+      "id": 0,
+      "continent": 0,
+      "name": "No Country"
+    },
+    {
+      "id": 1,
+      "continent": 4,
+      "name": "Spain"
+    },
+    {
+      "id": 2,
+      "continent": 4,
+      "name": "England"
+    },
+    {
+      "id": 3,
+      "continent": 4,
+      "name": "Portugal"
+    },
+    {
+      "id": 4,
+      "continent": 4,
+      "name": "Germany"
+    },
+    {
+      "id": 5,
+      "continent": 4,
+      "name": "France"
+    },
+    {
+      "id": 6,
+      "continent": 7,
+      "name": "Brazil"
+    },
+    {
+      "id": 7,
+      "continent": 4,
+      "name": "Netherlands"
+    },
+    {
+      "id": 8,
+      "continent": 4,
+      "name": "Russia"
+    },
+    {
+      "id": 9,
+      "continent": 4,
+      "name": "Sweden"
+    },
+    {
+      "id": 10,
+      "continent": 3,
+      "name": "Japan"
+    },
+    {
+      "id": 11,
+      "continent": 3,
+      "name": "South Korea"
+    },
+    {
+      "id": 12,
+      "continent": 5,
+      "name": "United States"
+    },
+    {
+      "id": 13,
+      "continent": 4,
+      "name": "Norway"
+    },
+    {
+      "id": 14,
+      "continent": 7,
+      "name": "Argentina"
+    },
+    {
+      "id": 15,
+      "continent": 7,
+      "name": "Chile"
+    },
+    {
+      "id": 16,
+      "continent": 7,
+      "name": "Uruguay"
+    },
+    {
+      "id": 17,
+      "continent": 5,
+      "name": "Mexico"
+    },
+    {
+      "id": 18,
+      "continent": 7,
+      "name": "Columbia"
+    },
+    {
+      "id": 19,
+      "continent": 7,
+      "name": "Peru"
+    },
+    {
+      "id": 20,
+      "continent": 1,
+      "name": "Egypt"
+    },
+    {
+      "id": 21,
+      "continent": 1,
+      "name": "Nigeria"
+    },
+    {
+      "id": 22,
+      "continent": 1,
+      "name": "Ghana"
+    },
+    {
+      "id": 23,
+      "continent": 1,
+      "name": "Senegal"
+    },
+    {
+      "id": 24,
+      "continent": 1,
+      "name": "Morocco"
+    },
+    {
+      "id": 25,
+      "continent": 1,
+      "name": "Algeria"
+    },
+    {
+      "id": 26,
+      "continent": 4,
+      "name": "Italy"
+    },
+    {
+      "id": 27,
+      "continent": 4,
+      "name": "Belgium"
+    },
+    {
+      "id": 28,
+      "continent": 4,
+      "name": "Australia"
+    }
+  ]
+}

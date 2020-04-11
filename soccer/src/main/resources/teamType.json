@@ -1,0 +1,12 @@
+{
+  "teamTypes": [
+    {
+      "id": 1,
+      "type": "Club Team"
+    },
+    {
+      "id": 2,
+      "type": "National Team"
+    }
+  ]
+}

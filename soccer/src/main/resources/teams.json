@@ -1,0 +1,526 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "FC Barcelona",
+      "teamType": 1,
+      "country": 1,
+      "league": 1,
+      "coach": "Quique Setién",
+      "players": []
+    },
+    {
+      "id": 2,
+      "name": "Real Madrid",
+      "teamType": 1,
+      "country": 1,
+      "league": 1,
+      "coach": "Zinedine Zidane",
+      "players": []
+    },
+    {
+      "id": 3,
+      "name": "Atlético Madrid",
+      "teamType": 1,
+      "country": 1,
+      "league": 1,
+      "coach": "Diego Simeone",
+      "players": []
+    },
+    {
+      "id": 4,
+      "name": "Valencia CF",
+      "teamType": 1,
+      "country": 1,
+      "league": 1,
+      "coach": "Albert Celades",
+      "players": []
+    },
+    {
+      "id": 5,
+      "name": "Villarreal CF",
+      "teamType": 1,
+      "country": 1,
+      "league": 1,
+      "coach": "Javier Calleja",
+      "players": []
+    },
+    {
+      "id": 6,
+      "name": "Arsenal",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Mikel Arteta",
+      "players": []
+    },
+    {
+      "id": 7,
+      "name": "Chelsea",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Frank Lampard",
+      "players": []
+    },
+    {
+      "id": 8,
+      "name": "Leicester City FC",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Brendan Rodgers",
+      "players": []
+    },
+    {
+      "id": 9,
+      "name": "Liverpool",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Jürgen Klopp",
+      "players": []
+    },
+    {
+      "id": 10,
+      "name": "Manchester City",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Pep Guardiola",
+      "players": []
+    },
+    {
+      "id": 11,
+      "name": "Manchester United",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "Ole Gunnar Solskjær",
+      "players": []
+    },
+    {
+      "id": 12,
+      "name": "Tottenham Hot Spurs",
+      "teamType": 1,
+      "country": 2,
+      "league": 2,
+      "coach": "José Mourinho",
+      "players": []
+    },
+    {
+      "id": 13,
+      "name": "FC Bayern Munich",
+      "teamType": 1,
+      "country": 4,
+      "league": 4,
+      "coach": "Hans-Dieter Flick",
+      "players": []
+    },
+    {
+      "id": 14,
+      "name": "Borussia Dortmund",
+      "teamType": 1,
+      "country": 4,
+      "league": 4,
+      "coach": "Lucien Favre",
+      "players": []
+    },
+    {
+      "id": 15,
+      "name": "RB Leipzig",
+      "teamType": 1,
+      "country": 4,
+      "league": 4,
+      "coach": "Julian Nagelsmann",
+      "players": []
+    },
+    {
+      "id": 16,
+      "name": "Paris Saint-Germain FC",
+      "teamType": 1,
+      "country": 5,
+      "league": 5,
+      "coach": "Thomas Tuchel",
+      "players": []
+    },
+    {
+      "id": 17,
+      "name": "Olympique Lyonnais",
+      "teamType": 1,
+      "country": 5,
+      "league": 5,
+      "coach": "Rudi Garcia",
+      "players": []
+    },
+    {
+      "id": 18,
+      "name": "Olympique de Marseille",
+      "teamType": 1,
+      "country": 5,
+      "league": 5,
+      "coach": "André Villas-Boas",
+      "players": []
+    },
+    {
+      "id": 19,
+      "name": "AS Monaco FC",
+      "teamType": 1,
+      "country": 5,
+      "league": 5,
+      "coach": "Robert Moreno",
+      "players": []
+    },
+    {
+      "id": 20,
+      "name": "AFC Ajax",
+      "teamType": 1,
+      "country": 6,
+      "league": 7,
+      "coach": "Erik ten Hag",
+      "players": []
+    },
+    {
+      "id": 21,
+      "name": "PSV Eindhoven",
+      "teamType": 1,
+      "country": 6,
+      "league": 7,
+      "coach": "Ernest Faber",
+      "players": []
+    },
+    {
+      "id": 22,
+      "name": "Feyenoord",
+      "teamType": 1,
+      "country": 6,
+      "league": 7,
+      "coach": "Dick Advocaat",
+      "players": []
+    },
+    {
+      "id": 23,
+      "name": "LA Galaxy",
+      "teamType": 1,
+      "country": 7,
+      "league": 12,
+      "coach": "Guillermo Barros Schelotto",
+      "players": []
+    },
+    {
+      "id": 24,
+      "name": "Los Angeles FC",
+      "teamType": 1,
+      "country": 7,
+      "league": 12,
+      "coach": "Bob Bradley",
+      "players": []
+    },
+    {
+      "id": 25,
+      "name": "Seattle Sounders FC",
+      "teamType": 1,
+      "country": 7,
+      "league": 12,
+      "coach": "Brian Schmetzer",
+      "players": []
+    },
+    {
+      "id": 26,
+      "name": "Portland Timbers",
+      "teamType": 1,
+      "country": 7,
+      "league": 12,
+      "coach": "Giovanni Savarese",
+      "players": []
+    },
+    {
+      "id": 27,
+      "name": "Inter Milan",
+      "teamType": 1,
+      "country": 8,
+      "league": 26,
+      "coach": "Antonio Conte",
+      "players": []
+    },
+    {
+      "id": 28,
+      "name": "Juventus FC",
+      "teamType": 1,
+      "country": 8,
+      "league": 26,
+      "coach": "Maurizio Sarri",
+      "players": []
+    },
+    {
+      "id": 29,
+      "name": "A.C. Milan",
+      "teamType": 1,
+      "country": 8,
+      "league": 26,
+      "coach": "Stefano Pioli",
+      "players": []
+    },
+    {
+      "id": 30,
+      "name": "S.S.C. Napoli",
+      "teamType": 1,
+      "country": 8,
+      "league": 26,
+      "coach": "Gennaro Gattuso",
+      "players": []
+    },
+    {
+      "id": 31,
+      "name": "Spain National Team",
+      "teamType": 2,
+      "country": 1,
+      "league": 0,
+      "coach": "Luis Enrique",
+      "players": []
+    },
+    {
+      "id": 32,
+      "name": "England National Team",
+      "teamType": 2,
+      "country": 2,
+      "league": 0,
+      "coach": "Gareth Southgate",
+      "players": []
+    },
+    {
+      "id": 33,
+      "name": "Portugal National Team",
+      "teamType": 2,
+      "country": 3,
+      "league": 0,
+      "coach": "Fernando Santos",
+      "players": []
+    },
+    {
+      "id": 34,
+      "name": "Germany National Team",
+      "teamType": 2,
+      "country": 4,
+      "league": 0,
+      "coach": "Joachim Löw",
+      "players": []
+    },
+    {
+      "id": 35,
+      "name": "France National Team",
+      "teamType": 2,
+      "country": 5,
+      "league": 0,
+      "coach": "Didier Deschamps",
+      "players": []
+    },
+    {
+      "id": 36,
+      "name": "Brazil National Team",
+      "teamType": 2,
+      "country": 6,
+      "league": 0,
+      "coach": "Tite",
+      "players": []
+    },
+    {
+      "id": 37,
+      "name": "Netherlands National Team",
+      "teamType": 2,
+      "country": 7,
+      "league": 0,
+      "coach": "Ronald Koeman",
+      "players": []
+    },
+    {
+      "id": 38,
+      "name": "Russia National Team",
+      "teamType": 2,
+      "country": 8,
+      "league": 0,
+      "coach": "Stanislav Cherchesov",
+      "players": []
+    },
+    {
+      "id": 39,
+      "name": "Sweden National Team",
+      "teamType": 2,
+      "country": 9,
+      "league": 0,
+      "coach": "Janne Andersson",
+      "players": []
+    },
+    {
+      "id": 40,
+      "name": "Japan National Team",
+      "teamType": 2,
+      "country": 10,
+      "league": 0,
+      "coach": "Hajime Moriyasu",
+      "players": []
+    },
+    {
+      "id": 41,
+      "name": "South Korea National Team",
+      "teamType": 2,
+      "country": 11,
+      "league": 0,
+      "coach": "Paulo Bento",
+      "players": []
+    },
+    {
+      "id": 42,
+      "name": "United States National Team",
+      "teamType": 2,
+      "country": 12,
+      "league": 0,
+      "coach": "Gregg Berhalter",
+      "players": []
+    },
+    {
+      "id": 43,
+      "name": "Norway National Team",
+      "teamType": 2,
+      "country": 13,
+      "league": 0,
+      "coach": "Lars Lagerbäck",
+      "players": []
+    },
+    {
+      "id": 44,
+      "name": "Argentina National Team",
+      "teamType": 2,
+      "country": 14,
+      "league": 0,
+      "coach": "Lionel Scaloni",
+      "players": []
+    },
+    {
+      "id": 45,
+      "name": "Chile National Team",
+      "teamType": 2,
+      "country": 15,
+      "league": 0,
+      "coach": "Reinaldo Rueda",
+      "players": []
+    },
+    {
+      "id": 46,
+      "name": "Uruguay National Team",
+      "teamType": 2,
+      "country": 16,
+      "league": 0,
+      "coach": "Óscar Tabárez",
+      "players": []
+    },
+    {
+      "id": 47,
+      "name": "Mexico National Team",
+      "teamType": 2,
+      "country": 17,
+      "league": 0,
+      "coach": "Gerardo Martino",
+      "players": []
+    },
+    {
+      "id": 48,
+      "name": "Columbia National Team",
+      "teamType": 2,
+      "country": 18,
+      "league": 0,
+      "coach": "Carlos Queiroz",
+      "players": []
+    },
+    {
+      "id": 49,
+      "name": "Peru National Team",
+      "teamType": 2,
+      "country": 19,
+      "league": 0,
+      "coach": "Ricardo Gareca",
+      "players": []
+    },
+    {
+      "id": 50,
+      "name": "Egypt National Team",
+      "teamType": 2,
+      "country": 20,
+      "league": 0,
+      "coach": "Hossam El Badry",
+      "players": []
+    },
+    {
+      "id": 51,
+      "name": "Nigeria National Team",
+      "teamType": 2,
+      "country": 21,
+      "league": 0,
+      "coach": "Gernot Rohr",
+      "players": []
+    },
+    {
+      "id": 52,
+      "name": "Ghana National Team",
+      "teamType": 2,
+      "country": 22,
+      "league": 0,
+      "coach": "Charles Akonnor",
+      "players": []
+    },
+    {
+      "id": 53,
+      "name": "Senegal National Team",
+      "teamType": 2,
+      "country": 23,
+      "league": 0,
+      "coach": "Aliou Cissé",
+      "players": []
+    },
+    {
+      "id": 54,
+      "name": "Morocco National Team",
+      "teamType": 2,
+      "country": 24,
+      "league": 0,
+      "coach": "Vahid Halilhodžić",
+      "players": []
+    },
+    {
+      "id": 55,
+      "name": "Algeria National Team",
+      "teamType": 2,
+      "country": 25,
+      "league": 0,
+      "coach": "Djamel Belmadi",
+      "players": []
+    },
+    {
+      "id": 56,
+      "name": "Italy National Team",
+      "teamType": 2,
+      "country": 26,
+      "league": 0,
+      "coach": "Roberto Mancini",
+      "players": []
+    },
+    {
+      "id": 57,
+      "name": "Belgium National Team",
+      "teamType": 2,
+      "country": 27,
+      "league": 0,
+      "coach": "Roberto Martínez",
+      "players": []
+    },
+    {
+      "id": 58,
+      "name": "Australia National Team",
+      "teamType": 2,
+      "country": 28,
+      "league": 0,
+      "coach": "Graham Arnold",
+      "players": []
+    }
+  ]
+}

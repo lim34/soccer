@@ -1,0 +1,49 @@
+{
+  "leagues":[
+    {
+      "id": 0,
+      "name": "No League",
+      "country": 0
+    },
+    {
+      "id": 1,
+      "name": "La Liga",
+      "country": 1
+    },
+    {
+      "id": 2,
+      "name": "Premier League",
+      "country": 2
+    },
+    {
+      "id": 3,
+      "name": "Primeira Liga",
+      "country": 3
+    },
+    {
+      "id": 4,
+      "name": "Bundesliga",
+      "country": 4
+    },
+    {
+      "id": 5,
+      "name": "Ligue 1",
+      "country": 5
+    },
+    {
+      "id": 6,
+      "name": "Eredivisie",
+      "country": 7
+    },
+    {
+      "id": 7,
+      "name": "MLS",
+      "country": 12
+    },
+    {
+      "id": 8,
+      "name": "Serie A",
+      "country": 26
+    }
+  ]
+}

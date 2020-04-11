@@ -1,0 +1,36 @@
+{
+  "continents": [
+    {
+      "id": 0,
+      "name": "No Continent"
+    },
+    {
+      "id": 1,
+      "name": "Africa"
+    },
+    {
+      "id": 2,
+      "name": "Antartica"
+    },
+    {
+      "id": 3,
+      "name": "Asia"
+    },
+    {
+      "id": 4,
+      "name": "Europe"
+    },
+    {
+      "id": 5,
+      "name": "North America"
+    },
+    {
+      "id": 6,
+      "name": "Australia"
+    },
+    {
+      "id": 7,
+      "name": "South America"
+    }
+  ]
+}
