@@ -27,6 +27,7 @@ public class ApiController {
         return word;
     }
 
+    //players
     @RequestMapping("/players")
     public List<String> getPlayers() {
         players.add("Messi");
