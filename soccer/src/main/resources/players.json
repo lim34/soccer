@@ -2,14 +2,14 @@
   "players": [
     {
       "id": ,
-      "firstName": "",
-      "lastName": "",
+      "firstName": "Lionel",
+      "lastName": "Messi",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 94,
+        "speed": 92,
+        "strength": 84,
+        "agility": 96,
+        "accuracy": 94
       },
       "nationalTeam": ,
       "clubTeam": ,
