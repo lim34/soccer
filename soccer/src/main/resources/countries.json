@@ -142,8 +142,43 @@
     },
     {
       "id": 28,
-      "continent": 4,
+      "continent": 6,
       "name": "Australia"
+    },
+    {
+      "id": 29,
+      "continent": 4,
+      "name": "Croatia"
+    },
+    {
+      "id": 30,
+      "continent": 4,
+      "name": "Denmark"
+    },
+    {
+      "id": 31,
+      "continent": 4,
+      "name": "Wales"
+    },
+    {
+      "id": 32,
+      "continent": 1,
+      "name": "Cameroon"
+    },
+    {
+      "id": 33,
+      "continent": 4,
+      "name": "Scotland"
+    },
+    {
+      "id": 34,
+      "continent": 4,
+      "name": "Switzerland"
+    },
+    {
+      "id": 35,
+      "continent": 4,
+      "name": "Slovenia"
     }
   ]
 }

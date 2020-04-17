@@ -56,7 +56,7 @@
         "agility": 88,
         "accuracy": 95
       },
-      "nationalTeam": ,
+      "nationalTeam": 59,
       "clubTeam": 1,
       "position": 9
     },
@@ -266,7 +266,7 @@
         "agility": 84,
         "accuracy": 85
       },
-      "nationalTeam": ,
+      "nationalTeam": 60,
       "clubTeam": 1,
       "position": 11
     },
@@ -281,7 +281,7 @@
         "agility": 93,
         "accuracy": 93
       },
-      "nationalTeam": ,
+      "nationalTeam": 61,
       "clubTeam": 2,
       "position": 12
     },
@@ -491,179 +491,254 @@
         "agility": 84,
         "accuracy": 84
       },
-      "nationalTeam": ,
+      "nationalTeam": 32,
       "clubTeam": 9,
-      "position":
+      "position": 4
     },
     {
       "id": 34,
       "firstName": "Jordan",
       "lastName": "Henderson",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 90,
+        "speed": 87,
+        "strength": 83,
+        "agility": 82,
+        "accuracy": 90
       },
-      "nationalTeam": ,
+      "nationalTeam": 32,
       "clubTeam": 9,
-      "position":
+      "position": 8
     },
     {
       "id": 35,
       "firstName": "Alisson",
       "lastName": "Becker",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 91,
+        "speed": 54,
+        "strength": 92,
+        "agility": 94,
+        "accuracy": 62
       },
-      "nationalTeam": ,
+      "nationalTeam": 36,
       "clubTeam": 9,
-      "position":
+      "position": 1
     },
     {
       "id": 36,
       "firstName": "Joel",
       "lastName": "Matip",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 82,
+        "speed": 80,
+        "strength": 85,
+        "agility": 84,
+        "accuracy": 79
       },
-      "nationalTeam": ,
+      "nationalTeam": 62,
       "clubTeam": 9,
-      "position":
+      "position": 2
     },
     {
       "id": 37,
       "firstName": "Virgil",
       "lastName": "Van Dijk",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 89,
+        "speed": 89,
+        "strength": 97,
+        "agility": 87,
+        "accuracy": 84
       },
-      "nationalTeam": ,
+      "nationalTeam": 37,
       "clubTeam": 9,
-      "position":
+      "position": 2
     },
     {
       "id": 38,
       "firstName": "Andrew",
       "lastName": "Robertson",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 84,
+        "speed": 86,
+        "strength": 82,
+        "agility": 87,
+        "accuracy": 82
       },
-      "nationalTeam": ,
+      "nationalTeam": 63,
       "clubTeam": 9,
-      "position":
+      "position": 3
     },
     {
       "id": 39,
       "firstName": "Fabinho",
       "lastName": "Henrique Tavares",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 86,
+        "speed": 84,
+        "strength": 92,
+        "agility": 83,
+        "accuracy": 87
       },
-      "nationalTeam": ,
+      "nationalTeam": 36,
       "clubTeam": 9,
-      "position":
+      "position": 7
     },
     {
       "id": 40,
       "firstName": "James",
       "lastName": "Milner",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 84,
+        "speed": 88,
+        "strength": 80,
+        "agility": 85,
+        "accuracy": 82
       },
-      "nationalTeam": ,
+      "nationalTeam": 32,
       "clubTeam": 9,
-      "position":
+      "position": 11
     },
     {
       "id": 41,
       "firstName": "Xherdan",
       "lastName": "Shaqiri",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 84,
+        "speed": 87,
+        "strength": 79,
+        "agility": 88,
+        "accuracy": 86
       },
-      "nationalTeam": ,
+      "nationalTeam": 64,
       "clubTeam": 9,
-      "position":
+      "position": 13
     },
     {
       "id": 42,
       "firstName": "Divock",
       "lastName": "Origi",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 83,
+        "speed": 82,
+        "strength": 92,
+        "agility": 84,
+        "accuracy": 80
       },
-      "nationalTeam": ,
+      "nationalTeam": 57,
       "clubTeam": 9,
-      "position":
+      "position": 15
     },
     {
       "id": 43,
       "firstName": "Roberto",
       "lastName": "Firmino",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 88,
+        "speed": 82,
+        "strength": 88,
+        "agility": 85,
+        "accuracy": 94
       },
-      "nationalTeam": ,
+      "nationalTeam": 36,
       "clubTeam": 9,
-      "position":
+      "position": 13
     },
     {
       "id": 44,
       "firstName": "Mohamed",
       "lastName": "Salah",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 91,
+        "speed": 93,
+        "strength": 78,
+        "agility": 92,
+        "accuracy": 86
       },
       "nationalTeam": 50,
       "clubTeam": 9,
-      "position":
+      "position": 14
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 45,
+      "firstName": "Joao",
+      "lastName": "Felix",
+      "rating": {
+        "overall": ,
+        "speed":,
+        "strength": ,
+        "agility": ,
+        "accuracy":
+      },
+      "nationalTeam": 33,
+      "clubTeam": 3,
+      "position": 13
+    },
+    {
+      "id": 46,
+      "firstName": "Diego",
+      "lastName": "Costa",
+      "rating": {
+        "overall": ,
+        "speed":,
+        "strength": ,
+        "agility": ,
+        "accuracy":
+      },
+      "nationalTeam": 31,
+      "clubTeam": 3,
+      "position": 15
+    },
+    {
+      "id": 47,
+      "firstName": "Alvaro",
+      "lastName": "Morata",
+      "rating": {
+        "overall": ,
+        "speed":,
+        "strength": ,
+        "agility": ,
+        "accuracy":
+      },
+      "nationalTeam": 31,
+      "clubTeam": 3,
+      "position": 14
+    },
+    {
+      "id": 48,
+      "firstName": "Marcos",
+      "lastName": "Llorente",
+      "rating": {
+        "overall": ,
+        "speed":,
+        "strength": ,
+        "agility": ,
+        "accuracy":
+      },
+      "nationalTeam": 31,
+      "clubTeam": 3,
+      "position": 7
+    },
+    {
+      "id": 49,
+      "firstName": "Yannick",
+      "lastName": "Carrasco",
+      "rating": {
+        "overall": ,
+        "speed":,
+        "strength": ,
+        "agility": ,
+        "accuracy":
+      },
+      "nationalTeam": 57,
+      "clubTeam": 3,
+      "position": 10
+    },
+    {
+      "id": 50,
+      "firstName": "Jan",
+      "lastName": "Oblak",
       "rating": {
         "overall": ,
         "speed":,
@@ -672,13 +747,13 @@
         "accuracy":
       },
       "nationalTeam": ,
-      "clubTeam": ,
-      "position":
+      "clubTeam": 3,
+      "position": 1
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 51,
+      "firstName": "Jorge",
+      "lastName": "Koke",
       "rating": {
         "overall": ,
         "speed":,
@@ -687,13 +762,13 @@
         "accuracy":
       },
       "nationalTeam": ,
-      "clubTeam": ,
+      "clubTeam": 3,
       "position":
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 52,
+      "firstName": "Ivan",
+      "lastName": "Vicente",
       "rating": {
         "overall": ,
         "speed":,
@@ -702,13 +777,13 @@
         "accuracy":
       },
       "nationalTeam": ,
-      "clubTeam": ,
+      "clubTeam": 3,
       "position":
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 53,
+      "firstName": "Felipe",
+      "lastName": "Monteiro",
       "rating": {
         "overall": ,
         "speed":,
@@ -717,13 +792,13 @@
         "accuracy":
       },
       "nationalTeam": ,
-      "clubTeam": ,
+      "clubTeam": 3,
       "position":
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 54,
+      "firstName": "Hector",
+      "lastName": "Herrera",
       "rating": {
         "overall": ,
         "speed":,
@@ -732,97 +807,22 @@
         "accuracy":
       },
       "nationalTeam": ,
-      "clubTeam": ,
+      "clubTeam": 3,
       "position":
     },
     {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
+      "id": 55,
+      "firstName": "Thomas",
+      "lastName": "Lemar",
       "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
+        "overall": 83,
+        "speed": 90,
+        "strength": 80,
+        "agility": 82,
+        "accuracy": 84
       },
-      "nationalTeam": ,
-      "clubTeam": ,
-      "position":
-    },
-    {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
-      "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
-      },
-      "nationalTeam": ,
-      "clubTeam": ,
-      "position":
-    },
-    {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
-      "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
-      },
-      "nationalTeam": ,
-      "clubTeam": ,
-      "position":
-    },
-    {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
-      "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
-      },
-      "nationalTeam": ,
-      "clubTeam": ,
-      "position":
-    },
-    {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
-      "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
-      },
-      "nationalTeam": ,
-      "clubTeam": ,
-      "position":
-    },
-    {
-      "id": ,
-      "firstName": "",
-      "lastName": "",
-      "rating": {
-        "overall": ,
-        "speed":,
-        "strength": ,
-        "agility": ,
-        "accuracy":
-      },
-      "nationalTeam": ,
-      "clubTeam": ,
+      "nationalTeam": 35,
+      "clubTeam": 3,
       "position":
     },
     {
