@@ -3,13 +3,14 @@ package com.projectsteamy.soccer.model;
 import lombok.Data;
 
 @Data
-public class Country {
+public class League {
+
     private int id;
-    private int continent;
+    private int country;
     private String name;
 
     public int getId() { return id; }
-    public int getContinent() { return continent; }
+    public int getCountry() { return country; }
     public String getName() { return name; }
 
 }

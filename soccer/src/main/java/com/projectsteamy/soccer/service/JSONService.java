@@ -2,10 +2,8 @@ package com.projectsteamy.soccer.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.projectsteamy.soccer.constant.ApiConstants;
-import com.projectsteamy.soccer.model.Continent;
-import com.projectsteamy.soccer.model.Country;
-import com.projectsteamy.soccer.model.wrapper.ContinentWrapper;
-import com.projectsteamy.soccer.model.wrapper.CountryWrapper;
+import com.projectsteamy.soccer.model.*;
+import com.projectsteamy.soccer.model.wrapper.*;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
@@ -39,6 +37,36 @@ public class JSONService {
             countryMap.put(item.getId(), item);
         });
         return countryMap;
+    }
+
+    public HashMap<Integer, League> getLeagues() throws Exception {
+        LeagueWrapper leagueWrapper = objectMapper.readValue(getJSONFile(ApiConstants.LEAGUES_FILE), LeagueWrapper.class);
+        HashMap<Integer, League> leagueMap = new HashMap<>();
+        leagueWrapper.getLeagueList().forEach(item -> {
+            leagueMap.put(item.getId(), item);
+        });
+
+        return leagueMap;
+    }
+
+    public HashMap<Integer, Position> getPositions() throws Exception {
+        PositionWrapper positionWrapper = objectMapper.readValue(getJSONFile(ApiConstants.POSITIONS_FILE), PositionWrapper.class);
+        HashMap<Integer, Position> positionMap = new HashMap<>();
+        positionWrapper.getPositionList().forEach(item -> {
+            positionMap.put(item.getId(), item);
+        });
+
+        return positionMap;
+    }
+
+    public HashMap<Integer, Team> getTeams() throws Exception {
+        TeamWrapper teamWrapper = objectMapper.readValue(getJSONFile(ApiConstants.TEAMS_FILE), TeamWrapper.class);
+        HashMap<Integer, Team> teamMap = new HashMap<>();
+        teamWrapper.getTeamList().forEach(item -> {
+            teamMap.put(item.getId(), item);
+        });
+
+        return teamMap;
     }
 
 }
