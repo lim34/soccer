@@ -4,31 +4,24 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.projectsteamy.soccer.constant.ApiConstants;
 import com.projectsteamy.soccer.model.*;
 import com.projectsteamy.soccer.model.wrapper.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.util.ResourceUtils;
 
 import java.io.File;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
 @Service
 public class JSONService {
 
-    private ResourceLoader resourceLoader;
-
-    @Autowired
-    public JSONService(ResourceLoader resourceLoader) {
-        this.resourceLoader = resourceLoader;
-    }
-
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    private File getJSONFile(String fileName) throws Exception {
-        StringBuilder sb = new StringBuilder("classpath:").append(fileName);
-        Resource resource = resourceLoader.getResource(sb.toString());
-        return resource.getFile();
+    private String getJSONFile(String fileName) throws Exception {
+        ClassPathResource file = new ClassPathResource(fileName);
+        byte[] bdata = FileCopyUtils.copyToByteArray(file.getInputStream());
+        return new String(bdata, StandardCharsets.UTF_8);
     }
 
     public HashMap<Integer, Continent> getContinents() throws Exception {
