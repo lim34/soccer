@@ -521,6 +521,69 @@
       "league": 0,
       "coach": "Graham Arnold",
       "players": []
+    },
+    {
+      "id": 59,
+      "name": "Croatia National Team",
+      "teamType": 2,
+      "country": 29,
+      "league": 0,
+      "coach": "Zlatko Dalic",
+      "players": []
+    },
+    {
+      "id": 60,
+      "name": "Denmark National Team",
+      "teamType": 2,
+      "country": 30,
+      "league": 0,
+      "coach": "Kasper Hjulmand",
+      "players": []
+    },
+    {
+      "id": 61,
+      "name": "Wales National Team",
+      "teamType": 2,
+      "country": 31,
+      "league": 0,
+      "coach": "Ryan Giggs",
+      "players": []
+    },
+    {
+      "id": 62,
+      "name": "Cameroon National Team",
+      "teamType": 2,
+      "country": 32,
+      "league": 0,
+      "coach": "Yves Clement Arroga",
+      "players": []
+    },
+    {
+      "id": 63,
+      "name": "Scotland National Team",
+      "teamType": 2,
+      "country": 33,
+      "league": 0,
+      "coach": "Alex McLeish",
+      "players": []
+    },
+    {
+      "id": 64,
+      "name": "Switzerland National Team",
+      "teamType": 2,
+      "country": 34,
+      "league": 0,
+      "coach": "Vladimir Petkovic",
+      "players": []
+    },
+    {
+      "id": 65,
+      "name": "Slovenia National Team",
+      "teamType": 2,
+      "country": 35,
+      "league": 0,
+      "coach": "Vranjes",
+      "players": []
     }
   ]
 }
