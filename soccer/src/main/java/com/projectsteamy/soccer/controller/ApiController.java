@@ -4,12 +4,14 @@ import com.projectsteamy.soccer.model.*;
 import com.projectsteamy.soccer.service.CacheDataService;
 import com.projectsteamy.soccer.service.JSONService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class ApiController {
@@ -41,6 +43,11 @@ public class ApiController {
     public HashMap<Integer, Team> getTeams() throws Exception {
         return CacheDataService.getTeamHashMap();
     }
+
+    /*@RequestMapping("/players")
+    public HashMap<Integer, Player> getPlayers() throws Exception {
+        return CacheDataService.getPlayerMap();
+    }*/
 
     @RequestMapping("/num")
     public int getNum(@RequestParam int num) {

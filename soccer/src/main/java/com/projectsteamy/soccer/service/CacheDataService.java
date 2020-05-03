@@ -24,6 +24,7 @@ public class CacheDataService {
     private static HashMap<Integer, League> leagueHashMap;
     private static HashMap<Integer, Position> positionHashMap;
     private static HashMap<Integer, Team> teamHashMap;
+    private static HashMap<Integer, Player> playerHashMap;
 
     @PostConstruct
     public void init() throws Exception {
@@ -32,6 +33,7 @@ public class CacheDataService {
         leagueHashMap = getLeagues();
         positionHashMap = getPositions();
         teamHashMap = getTeams();
+        //playerHashMap = getPlayers();
         LOG.info("Data Loading / Caching Successful.");
     }
 
@@ -91,6 +93,16 @@ public class CacheDataService {
         return teamMap;
     }
 
+    public HashMap<Integer, Player> getPlayers() throws Exception {
+        PlayerWrapper playerWrapper = objectMapper.readValue(getJSONFile(ApiConstants.PLAYERS_FILE), PlayerWrapper.class);
+        HashMap<Integer, Player> playerMap = new HashMap<>();
+        playerWrapper.getPlayerList().forEach(item -> {
+            playerMap.put(item.getId(), item);
+        });
+
+        return playerMap;
+    }
+
     public static HashMap<Integer, Continent> getContinentHashMap() {
         return continentHashMap;
     }
@@ -104,6 +116,8 @@ public class CacheDataService {
     public static HashMap<Integer, Position> getPositionHashMap() { return positionHashMap; }
 
     public static HashMap<Integer, Team> getTeamHashMap() { return teamHashMap; }
+
+    public static HashMap<Integer, Player> getPlayerMap() { return playerHashMap; }
 
     public static int calculateNum(int num) {
         if(num <= 1) {
